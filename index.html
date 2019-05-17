@@ -99,7 +99,7 @@
                             <span class="sch_inpw_in">
 <input type="hidden" name="sm" value="mtb_hty">
 <input type="hidden" name="where" value="m">
-<input id="query" type="search" name="query" title="검색어를 입력해주세요." placeholder="검색어를 입력해주세요." autocomplete="off" class="sch_inp" maxlength="255" autocorrent="off" autocapitalize="off" onfocus="this.setAttribute('data-focus','focus');">
+<input id="query" type="search" name="query" title="원준아, 검색은 안돼" placeholder="원준아, 검색은 안돼" autocomplete="off" class="sch_inp" maxlength="255" autocorrent="off" autocapitalize="off" onfocus="this.setAttribute('data-focus','focus');">
 <button id="clear_input" type="button" class="sch_del"><span class="ico_sch_del">입력 내용 삭제</span></button>
                             </span>
                             <button type="submit" class="sch_submit"><span class="ico_sch_submit">검색</span></button>
@@ -243,6 +243,17 @@
 
                         <div class="sch_logo_group MM_logo">
 
+                            <br>
+
+                            <br>
+
+                            <br>
+
+                            <br>
+
+                            <br>
+
+
 
                             <div class="logo">
                                 <h1 class="lg_home">
@@ -256,12 +267,19 @@
                                         <div class="sch_inpw">
                                             <form action="#" role="search">
                                                 <span class="sch_inpw_in">
-											<input id="MM_SEARCH_FAKE" type="search" title="검색어를 입력해주세요." placeholder="검색어를 입력해주세요." autocomplete="off" class="sch_inp">
+											<input id="MM_SEARCH_FAKE" type="search" title="검색어를 입력해주세요." placeholder="원준아, 검색은 안돼." autocomplete="off" class="sch_inp">
 										</span>
                                             </form>
                                         </div>
                                     </div>
+
                                 </section>
+                                <div style="text-align:center;">
+                                    <br>
+                                    <h5>원준아, 실검이 안떠, 옛날걸로 다시 만들겤ㅋㅋㅋ</h5>
+                                    <br>
+                                    <h7>원준이 영어 점수 84점</h7>
+                                </div>
                             </div>
 
                             <!--NONE-->
@@ -270,1349 +288,394 @@
 
 
 
-                            <div id="MM_WEB_SHORTCUT" class="shortcut_view">
-                                <h2 class="blind">바로가기</h2>
-                                <ul class="sv_list"></ul>
-                                <script type="text/template" class="MM_SHORTCUT_LIST_TEMPLATE">
-                                    <li class="sv_item" data-shortcut-code="{{ code }}">
-                                        {{# url }}
-                                        <a href="{{ url }}" class="sv_a MM_SHORTCUT_ITEM_LINK" data-clk="short{{ nclickCode }}">
-{{/ url }}
-{{# runANDROID }}
-<a href="#"
-data-android-scheme="{{ androidScheme }}"
-data-android-query="{{ androidQuery }}"
-data-android-package="{{ package }}"
-class="sv_a MM_SHORTCUT_ITEM_LINK" data-clk="short{{ nclickCode }}">
-{{/ runANDROID }}
-{{# runIOS }}
-<a href="#"
-data-ios-scheme="{{ iosScheme }}"
-data-ios-query="{{ iosQuery }}"
-data-ios-install="{{ iosInstallId }}"
-data-ios-fallback="{{ iosAppStoreUrl }}"
-class="sv_a MM_SHORTCUT_ITEM_LINK" data-clk="short{{ nclickCode }}">
-{{/ runIOS }}
-<div class="sv_mw">
-<img src="{{ iconUrl }}" width="28px" height="28px" alt="" class="sv_m">
-<span class="ico_bubble MM_BUBBLE" style="display: none;"></span>
-{{# isApp }}
-<span class="ico_cs_app">APP</span>
-{{/ isApp }}
-</div>
-<div class="sv_t">{{ title }}</div>
-</a>
-                                    </li>
-                                </script>
-                            </div>
-
-                            <a id="MM_ASIDE_BTN" href="/aside" class="lg_aside" role="button" aria-expanded="false" data-clk="drawer">
-                                <span class="lg_ham">확장영역 열기</span>
-                                <span class="lg_alarm MM_ASIDE_BADGE" style="display: none;"><span class="num MM_ASIDE_NOTI_COUNT">0</span></span>
-                            </a>
-                        </div>
-                        <script id="MM_AIRS_SHORTCUT_GLOBAL" type="application/json">
-                            {
-                                "message": {
-                                    "meta": {
-                                        "service": "",
-                                        "timezone": "+09:00",
-                                        "version": ""
-                                    }
-                                },
-                                "params": {
-                                    "display": "12",
-                                    "st": "service"
-                                },
-                                "result": {
-                                    "chart": "http://d3b434.svr.naver.com:8742/?display=12&st=service&",
-                                    "item_count": 12,
-                                    "service": [{
-                                        "code": "svc.mail:1",
-                                        "retrieve_type": "global",
-                                        "service": "mail",
-                                        "serviceKey": ""
-                                    }, {
-                                        "code": "svc.comic:1",
-                                        "retrieve_type": "global",
-                                        "service": "webtoon",
-                                        "serviceKey": "main"
-                                    }, {
-                                        "code": "svc.news:1",
-                                        "retrieve_type": "global",
-                                        "service": "news",
-                                        "serviceKey": ""
-                                    }, {
-                                        "code": "svc.kin:1",
-                                        "retrieve_type": "global",
-                                        "service": "kin",
-                                        "serviceKey": ""
-                                    }, {
-                                        "code": "svc.map:1",
-                                        "retrieve_type": "global",
-                                        "service": "map",
-                                        "serviceKey": ""
-                                    }, {
-                                        "code": "svc.talktalk:1",
-                                        "retrieve_type": "global",
-                                        "service": "talk",
-                                        "serviceKey": ""
-                                    }, {
-                                        "code": "svc.enter:1",
-                                        "retrieve_type": "global",
-                                        "service": "entertain",
-                                        "serviceKey": ""
-                                    }, {
-                                        "code": "svc.note:1",
-                                        "retrieve_type": "global",
-                                        "service": "note",
-                                        "serviceKey": ""
-                                    }, {
-                                        "code": "svc.tvcastweb:1",
-                                        "retrieve_type": "global",
-                                        "service": "tvcast",
-                                        "serviceKey": ""
-                                    }, {
-                                        "code": "svc.sports:1",
-                                        "retrieve_type": "global",
-                                        "service": "sports",
-                                        "serviceKey": ""
-                                    }, {
-                                        "code": "svc.shopping:1",
-                                        "retrieve_type": "global",
-                                        "service": "shopping",
-                                        "serviceKey": "main"
-                                    }, {
-                                        "code": "svc.myplace:1",
-                                        "retrieve_type": "global",
-                                        "service": "place",
-                                        "serviceKey": ""
-                                    }]
-                                },
-                                "status": {
-                                    "code": "200",
-                                    "message": "OK"
-                                }
-                            }
-                        </script>
-
-                        <div class="grid1_group type_gradient" id="SEARCH_HOME_WRAP">
-
-
-                            <div id="HOME_AD" class="grid1 id_nmap" data-da="wrap_main_news_specialda_1" data-ad-type="normal" style="overflow:hidden; background-color: #fff;">
-                                <div class="nmap_wrapper">
-                                    <div id="main_search_specialda_1" data-main-da="_MM_MAIN_DA" data-veta-preview="main_search_specialda_1">
-                                        <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/tveta/libs/assets/css/mo/main/min/mobile_newmain_special_da.min.css?20181005">
-                                        <div data-container-id="main_specialda_main_container">
-                                            <a href="https://mv.veta.naver.com/fxclick?eu=EU10041472&calp=-&oj=ya%2FU8Q7khEwgq7wRRSXKc9EaEgvcKwVXqG%2BnflYZW81WoUnIW%2BvamW8eGBwiPtDjbaJ2jsmcgDHDOcc1MypmAtzXTPWNPWFaChI1LlXDI9JbCvsxJJrhgA&ac=7848625&src=3851641&br=2902197&evtcd=P901&x_ti=1196&tb=SEARCH_1&oid=&sid1=&sid2=&rk=3aa43b77f3253253be1cb37d4bbf9848&eltts=XIFj9V%2Bg1NSpSDm0r6BK3w%3D%3D&lu=&brs=Y&"
-                                                style="display:block;text-align: center;text-decoration:none; margin-top: 50px;">
-                                                <span style="display: inline-block;max-width: 375px;vertical-align: top;">
-                <img src="https://ssl.pstatic.net/tveta/libs/1228/1228701/d035aadf586acecf09a3_20190516173248848.png" alt="실손보험만으로 부족하다 느낀다면? 메리츠 실속건강보험" style="display: block;width: 100%;border:none;">
-            </span>
-                                            </a>
-                                        </div>
-                                        <script id="ad_marketing_script" type="text/template">
-                                            (function () { var naver_corp_da = window.naver_corp_da || {}; var da_dom_id = 'main_search_specialda_1'.trim(); var uId = (da_dom_id.length > 0) ? da_dom_id : (typeof nbp_ad !== 'undefined') ? nbp_ad.mobilenetwork.ad_div_id : 'adw_da'; var tarEl = NBP_CORP.$(uId);
-                                            var util = naver_corp_da.Util ? new naver_corp_da.Util() : new NBP_CORP.Nimp(); var subTarEl = document.getElementById('main_search_specialda_2'); var lastWidth = window.innerWidth; var adHeight; if(subTarEl){
-                                            subTarEl.innerHTML = ""; } if (!tarEl) { return; } var scroll_target = (typeof da_scroll_target !== 'undefined') ? da_scroll_target.targetEl : window; var orientation_change_time = 500; /* ActiveView */ var
-                                            ac_end_date = "20190517175959"; var ad_end_date = "20190517175959"; var adblockDetector = new naver_corp_da.AdBlockDetector(); adblockDetector.init(); var callback = function () { var eid = ''; var adblockFound
-                                            = adblockDetector.validateNode(tarEl); if (adblockFound === true) { return; } try { eid = (tarEl) ? ((parseInt(tarEl.getBoundingClientRect().height || tarEl.offsetHeight, 10) === 0) ? 'V000' : 'V900') : 'V000';
-                                            } catch (e) { eid = 'V000'; naver_corp_da.scouters[uId].collectError(e); } var x_ev = ''; try { var target = tarEl; x_ev = (target) ? ((parseInt(target.getBoundingClientRect().height || target.offsetHeight,
-                                            10) === 0) ? '000' : '111') : '000'; } catch (e) { x_ev = '000'; } finally { if (eid === 'V900' && naver_corp_da.activeViews[uId] !== undefined) { naver_corp_da.activeViews[uId].removeEventListener(); } var
-                                            url = "https://mv.veta.naver.com/fxview?eu=EU10041472&calp=-&oj=ya%2FU8Q7khEwgq7wRRSXKc9EaEgvcKwVXqG%2BnflYZW81WoUnIW%2BvamW8eGBwiPtDjbaJ2jsmcgDHDOcc1MypmAtzXTPWNPWFaChI1LlXDI9JbCvsxJJrhgA&ac=7848625&src=3851641&evtcd=V900&x_ti=1196&tb=SEARCH_1&oid=&sid1=&sid2=&rk=3aa43b77f3253253be1cb37d4bbf9848&eltts=XIFj9V%2Bg1NSpSDm0r6BK3w%3D%3D&brs=Y&&eid="
-                                            + eid + "&tb=SEARCH_1&x_ev="; url += x_ev; util.log(url); } }; var callbackForInValid = function () { var target = tarEl; naver_corp_da.activeViews[uId].removeEventListener(); if (target) { target.innerHTML
-                                            = ''; target.style.removeProperty('height'); } }; naver_corp_da.activeViews[uId] = naver_corp_da.activeViews[uId] || null; if (naver_corp_da.activeViews[uId]) { naver_corp_da.activeViews[uId].clearActiveView();
-                                            naver_corp_da.activeViews[uId] = null; } var options = { activeViewPercentage: 0.5, activeViewTime: 1000, adDiv: tarEl, acEndDate: ac_end_date, adEndDate: ad_end_date, scrollTarget: scroll_target, orientationChangeTime:
-                                            orientation_change_time, callback: callback, callbackForInValid: callbackForInValid }; naver_corp_da.activeViews[uId] = (typeof naver_corp_da.ActiveViewSub !== "undefined") ? new naver_corp_da.ActiveViewSub(options)
-                                            : new naver_corp_da.ActiveView(options); naver_corp_da.activeViews[uId].checkActiveView(); // 모듈 생성 및 클릭 이벤트 활성화 if (typeof naver_corp_da.getClickedCoordinateSub !== "undefined" && tarEl.querySelector('a') !==
-                                            null) { var clickOption = { adArea: tarEl, // 광고 영역(div) logUrl: tarEl.querySelector('a') ? tarEl.querySelector('a').href : null // 기존 클릭 로그 URL }; new naver_corp_da.getClickedCoordinateSub(clickOption).activate();
-                                            } naver_corp_da.logParamManager[uId] = new naver_corp_da.logParamManager(); })();
-                                        </script>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="grid1 id_cui_weather _MM_WEATHER_BANNER">
-                                <div class="cui_weather" id="WTH_WRAP" data-ts="Fri May 17 16:01:31 KST 2019">
-                                    <div class="cw_ctop">
-                                        <a href="https://m.search.naver.com/search.naver?query=%EC%84%B1%EB%82%A8%EC%8B%9C %EC%A4%91%EC%9B%90%EA%B5%AC %EC%84%B1%EB%82%A8%EB%8F%99 %EB%82%A0%EC%94%A8&where=m&sm=mtp_hty" class="cw_info_a" data-clk="weather" data-type="NOW">
-                                            <div class="cw_info">
-                                                <div class="cw_icon">
-                                                    <div class="wt5">
-                                                        <div class="cloud_back"></div>
-                                                        <div class="sun"></div>
-                                                        <div class="cloud_front"></div>
-                                                    </div>
-                                                </div>
-                                                <ul class="cw_info_l">
-                                                    <li class="cw_info_item">
-                                                        <span class="cw_deg_num">27°</span><span class="cw_t">구름많음</span>
-                                                    </li>
-                                                    <li class="cw_info_item">
-                                                        <div class="cw_tw"><span class="cw_c">
-어제보다 2° 낮아요</span></div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </a>
-                                        <a href="https://m.search.naver.com/search.naver?query=%EC%84%B1%EB%82%A8%EC%8B%9C %EC%A4%91%EC%9B%90%EA%B5%AC %EC%84%B1%EB%82%A8%EB%8F%99 %EB%AF%B8%EC%84%B8%EB%A8%BC%EC%A7%80&where=m&sm=mtp_hty" class="cw_state_a" data-type="NOW" data-clk="weatherdust">
-                                            <ul class="cw_state_l">
-                                                <li class="cw_state_item">
-                                                    <div class="cw_state_tit">미세<span class="cw_dust">먼지</span></div>
-                                                    <div class="cw_state WTH_AIR_LEVEL">57</div>
-                                                    <div class="cw_state WTH_AIR_TEXT" style="display:none;">보통</div>
-                                                </li>
-                                                <li class="cw_state_item">
-                                                    <div class="cw_state_tit">초미세<span class="cw_dust">먼지</span></div>
-                                                    <div class="cw_state WTH_AIR_LEVEL">33</div>
-                                                    <div class="cw_state WTH_AIR_TEXT" style="display:none;">보통</div>
-                                                </li>
-                                            </ul>
-                                        </a>
-                                    </div>
-                                    <!-- start of breaking news -->
-                                    <div class="cw_report_wrap" id="WTH_WARN">
-                                        <ul class="cwr_l _ROLLING">
-                                            <li class="cwr_item">
-                                                <a href="https://m.search.naver.com/search.naver?query=%EA%B8%B0%EC%83%81%EC%86%8D%EB%B3%B4&where=m&sm=mtp_hty" class="cwr_link" data-clk="weatheralert">
-                                                    <span class="cwr_box">
-<span class="cwr_tag">특보</span><span class="cwr_sub">기상청 11:00</span>
-                                                    <span class="cwr_main">성남 건조주의보 발효</span>
-                                                    </span>
-                                                </a>
-                                            </li>
-                                            <li class="cwr_item">
-                                                <a href="https://m.search.naver.com/search.naver?query=%EA%B2%BD%EA%B8%B0%EB%8F%84 %EC%84%B1%EB%82%A8%EC%8B%9C%EC%A4%91%EC%9B%90%EA%B5%AC %EC%84%B1%EB%82%A8%EB%8F%99 %EC%98%A4%EC%A1%B4" class="cwr_link" data-clk="weatherozon">
-                                                    <span class="cwr_box">
-<span class="cwr_sub">한국환경공단</span>
-                                                    <span class="cwr_main">오존 0.097<em class="cwr_state cwr_bad">나쁨</em></span>
-                                                    </span>
-                                                </a>
-                                            </li>
-                                            <li class="cwr_item">
-                                                <a href="https://m.weather.naver.com/m/main.nhn?regionCode=02133101" class="cwr_link" data-clk="weatheruvind">
-                                                    <span class="cwr_box">
-<span class="cwr_sub">기상청 06:00</span>
-                                                    <span class="cwr_main">자외선지수 6<em class="cwr_state cwr_high">높음</em></span>
-                                                    </span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- end of breaking news -->
-                                    <div class="cw_cont" id="WTH_FORECAST">
-                                        <div class="cw_mid">
-                                            <a href="https://m.search.naver.com/search.naver?where=m&sm=mtp_clk.weather&acr=1&query=%EA%B2%BD%EA%B8%B0%EB%8F%84+%EC%84%B1%EB%82%A8%EC%8B%9C+%EC%A4%91%EC%9B%90%EA%B5%AC+%EC%84%B1%EB%82%A8%EB%8F%99+%EB%82%A0%EC%94%A8" data-clk="weatherhrfor" class="cw_mid_a type_cw_timegraph"
-                                                data-weathertime="20190517155510">
-                                                <div class="cw_timegraph_wrap">
-                                                    <div class="cw_timegraph MM_TEMPERATURE">
-                                                        <div class="cwt_canvas_wrap">
-                                                            <div class="cwt_canvas">
-                                                                <canvas class="MM_TEMPERATURE_GRAPH" style="min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;"></canvas>
-                                                            </div>
-                                                        </div>
-                                                        <ul class="cwt_list">
-                                                            <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="27" data-hour="15">
-                                                                <div class="cwt_time"><span class="cwt_num cwt_current MM_HOUR_LABEL">15시</span></div>
-                                                                <div class="cwt_ico "><span class="imw imw05">구름많음</span></div>
-                                                                <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">27˚</div>
-                                                            </li>
-                                                            <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="28" data-hour="16">
-                                                                <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">16</span></div>
-                                                                <div class="cwt_ico "><span class="imw imw05">구름많음</span></div>
-                                                                <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">28˚</div>
-                                                            </li>
-                                                            <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="28" data-hour="17">
-                                                                <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">17</span></div>
-                                                                <div class="cwt_ico "><span class="imw imw05">구름많음</span></div>
-                                                                <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">28˚</div>
-                                                            </li>
-                                                            <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="28" data-hour="18">
-                                                                <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">18</span></div>
-                                                                <div class="cwt_ico "><span class="imw imw05">구름많음</span></div>
-                                                                <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">28˚</div>
-                                                            </li>
-                                                            <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="23" data-hour="21">
-                                                                <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">21</span></div>
-                                                                <div class="cwt_ico "><span class="imw imw06">구름많음</span></div>
-                                                                <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">23˚</div>
-                                                            </li>
-                                                            <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="21" data-hour="00">
-                                                                <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">00</span></div>
-                                                                <div class="cwt_ico "><span class="imw imw06">구름많음</span></div>
-                                                                <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">21˚</div>
-                                                                <div class="cwt_date"><span class="cd_t">내일</span></div>
-                                                            </li>
-                                                            <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="20" data-hour="03">
-                                                                <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">03</span></div>
-                                                                <div class="cwt_ico cwt_gray"><span class="imw imw06">구름많음</span></div>
-                                                                <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">20˚</div>
-                                                            </li>
-                                                            <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="20" data-hour="06">
-                                                                <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">06</span></div>
-                                                                <div class="cwt_ico cwt_gray"><span class="imw imw07">흐림</span></div>
-                                                                <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">20˚</div>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="cw_bottom">
-                                            <button class="cwb_btn_location _MM_WEATHER_LOC" data-v="5" data-clk="weatherhere"><span class="blind">현재위치</span>성남시 성남동</button>
-                                            <div class="cwb_tw">
-                                                <button class="cwb_notice _MM_WEATHER_ALARM" type="button" aria-pressed="false" style="display:none;">날씨알림</button>
-                                                <div class="cwb_t _MM_WEATHER_DATA_SOURCE" style="display:none;">기상청, 한국환경공단</div>
-                                                <a href="https://m.weather.naver.com/m/news.nhn" class="cwb_btn_more" data-clk="weanewsmore">더보기</a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <!--EMPTY-->
-
-                            <!-- EMPTY -->
-
-
-                            <div class="grid1 id_cui_napp_bannernew">
-                                <div class="cui_napp_bannernew">
-                                    <div class="cnb_banner">
-                                        <h3 class="cnb_title">앱으로 <em class="cnb_em">새로운 네이버</em>를 더 쾌적하게 사용해 보세요.</h3>
-                                        <a href="#" class="cnb_btn" role="button" data-clk="newmainyes" data-action="ok" aria-current="true" data-ios-scheme="naversearchapp" data-ios-query="mainchange?type=new&version=31" data-ios-install="393499958" data-ios-universal-fullurl="" data-android-scheme="naversearchapp"
-                                            data-android-query="mainchange?type=new&version=31" data-android-package="com.nhn.android.search" onclick="nhn.mobile.launchApp(this);return false;">앱 사용하기</a>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div id="MM_LOGINBOX" class="grid1 id_cui_npay_board">
-                                <div class="cui_npay_board">
-                                    <div class="cnb_wrap">
-
-                                        <a href="https://nid.naver.com/nidlogin.login?svctype=262144" class="cnb_login" data-clk="logincard">
-                                            <span class="cnb_profile"></span>
-                                            <div class="cnb_guide"><strong>로그인</strong>하고 다양한 소식을 확인하세요</div>
-                                        </a>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="grid1 id_cui_webtoon_box">
-
-                            </div>
-                            <!--EMPTY-->
-                            <div id="MM_HOME_SEARCH_RECOMMEND_PANEL" class="grid1 id_cui_recommend_board">
-                                <div class="cui_recommend_board">
-                                    <div class="crb_title_wrap">
-                                        <h3 class="crb_title">
-
-                                            인기 주제 판을 확인해 보세요!
-
-                                            <a class="crb_right_a" href="/settings/menu/" data-clk="panopen">
-						판설정
-					</a>
-                                        </h3>
-                                    </div>
-                                    <div class="crb_shortcut_wrap">
-                                        <ul class="crb_list">
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="MM_HOME_NOTICE" class="grid1 id_cui_notice">
-                                <div class="cui_notice">
-                                    <h3 class="blind">알립니다</h3>
-                                    <ul class="cn_list MM_JS_RANDOM">
-                                        <li class="cn_item" data-js-random="true"><a href="#" class="cn_a" data-clk=""><span class="cn_ico_update"></span>&nbsp;</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-
-                            <div class="grid1 id_nmap" data-da="wrap_main_news_specialda_2" id="HOME_AD2" style="display:none;">
-                                <div class="nmap_wrapper">
-                                    <div id="main_search_specialda_2" data-veta-preview="main_search_specialda_2"></div>
-                                </div>
-                            </div>
-
 
                         </div>
+
+                        <a id="MM_ASIDE_BTN" href="/aside" class="lg_aside" role="button" aria-expanded="false" data-clk="drawer">
+                            <span class="lg_ham">확장영역 열기</span>
+                            <span class="lg_alarm MM_ASIDE_BADGE" style="display: none;"><span class="num MM_ASIDE_NOTI_COUNT">0</span></span>
+                        </a>
                     </div>
-                    <div class="search_footer" role="contentinfo">
-                        <div class="footer">
-                            <footer role="contentinfo">
-                                <div class="footer_info">
-
-                                    <a href="#" class="info MM_LOGINOUT" onclick="nclk(this,'fot.login','','');">로그인</a>
-
-                                    <a href="/services.html" class="info" onclick="nclk(this,'fot.sitemap','','');">전체서비스</a>
-                                    <a href="http://www.naver.com/?mobile" class="info" onclick="nclk(this,'fot.gopc','','');">PC버전</a>
-                                </div>
-                                <div class="footer_info">
-                                    <a href="http://nid.naver.com/mobile/user/help/termAgree.nhn?m=viewTermAgree1" class="info" onclick="nclk(this,'fot.agreement','','');">이용약관</a>
-                                    <a href="http://nid.naver.com/mobile/user/help/termAgree.nhn?m=viewTermAgree3" class="info policy" onclick="nclk(this,'fot.privacy','','');">개인정보처리방침</a>
-                                    <a href="https://m.help.naver.com/support/index.nhn" class="info" onclick="nclk(this,'fot.help','','');">고객센터</a>
-                                </div>
-                                <a href="https://www.navercorp.com" class="logo_naver" onclick="nclk(this,'fot.navercorp','','');">NAVER</a>
-                            </footer>
-                        </div>
-                    </div>
-                    <script id="MM_SHORTCUT_META" type="application/json">
+                    <script id="MM_AIRS_SHORTCUT_GLOBAL" type="application/json">
                         {
-                            "serviceMeta": {
-                                "metadata": {
-                                    "svc.booking:1": {
-                                        "title": "네이버예약",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/75_resevation.png",
-                                        "badge": "",
-                                        "url": "https://m.booking.naver.com/booked/list"
-                                    },
-                                    "svc.svdic:1": {
-                                        "title": "스웨덴어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/64_swedish.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/svkodict/#/main"
-                                    },
-                                    "svc.modoo:1": {
-                                        "title": "modoo![모두]",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/138_modoo.png",
-                                        "badge": "",
-                                        "url": "http://www.modoo.at/home?&mobile=1"
-                                    },
-                                    "svc.kin:1": {
-                                        "title": "지식iN",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/103_k-in.png",
-                                        "badge": "",
-                                        "url": "https://m.kin.naver.com/mobile/index.nhn"
-                                    },
-                                    "svc.aldic:1": {
-                                        "title": "알바니아어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/69_albania.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/sqkodict/#/main"
-                                    },
-                                    "svc.department:1": {
-                                        "title": "백화점윈도",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/48_shop-depart.png",
-                                        "badge": "",
-                                        "url": "https://m.swindow.naver.com/department/home"
-                                    },
-                                    "svc.gedic:1": {
-                                        "title": "조지아어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/91_je.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/kakodict/#/main"
-                                    },
-                                    "svc.swdic:1": {
-                                        "title": "스와힐리어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/63_swahili.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/swkodict/#/main"
-                                    },
-                                    "svc.dedic:1": {
-                                        "title": "독일어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/17_german.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/dekodict/#/main"
-                                    },
-                                    "svc.cword:1": {
-                                        "title": "중국어단어장",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/94_chiword.png",
-                                        "badge": "",
-                                        "url": "https://learn.dict.naver.com/m/cndic/main.nhn"
-                                    },
-                                    "svc.searchmy:1": {
-                                        "title": "검색MY",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/4_my.png",
-                                        "badge": "",
-                                        "url": "https://my.search.naver.com/"
-                                    },
-                                    "svc.khdic:1": {
-                                        "title": "캄보디아어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/110_km.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/kmkodict/#/main"
-                                    },
-                                    "svc.keep:1": {
-                                        "title": "Keep",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20190329/143_naverkeep.png",
-                                        "badge": "",
-                                        "url": "https://m.keep.naver.com/"
-                                    },
-                                    "svc.flights:1": {
-                                        "title": "항공권",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/132_flight.png",
-                                        "badge": "",
-                                        "url": "https://m-tour.store.naver.com/flights"
-                                    },
-                                    "svc.phrasebookapp:2": {
-                                        "title": "글로벌회화",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/7_globalconversation_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "phrasebook",
-                                        "androidPackage": "com.nhn.android.phrasebook",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.enter:1": {
-                                        "title": "TV연예",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/71_entertain.png",
-                                        "badge": "",
-                                        "url": "http://m.entertain.naver.com/home"
-                                    },
-                                    "svc.middic:1": {
-                                        "title": "인니어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/87_india.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/idkodict/#/main"
-                                    },
-                                    "svc.jrnaverapp:2": {
-                                        "title": "쥬니버",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/97_jiniver_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "jrnaverphone",
-                                        "androidPackage": "air.com.nhncorp.jrapp",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.whaleapp:2": {
-                                        "title": "웨일 브라우저",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/82_wahle_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "",
-                                        "androidPackage": "com.naver.whale",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.shopping:1": {
-                                        "title": "네이버쇼핑",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/60_shopping.png",
-                                        "badge": "",
-                                        "url": "https://m.shopping.naver.com/home/m/index.nhn"
-                                    },
-                                    "svc.weather:1": {
-                                        "title": "날씨",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/8_weather.png",
-                                        "badge": "",
-                                        "url": "http://m.weather.naver.com"
-                                    },
-                                    "svc.kidswindow:1": {
-                                        "title": "키즈윈도",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/55_shop_kids.png",
-                                        "badge": "",
-                                        "url": "https://m.swindow.naver.com/kids/home"
-                                    },
-                                    "svc.postapp:2": {
-                                        "title": "포스트",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/124_post_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "naverpost",
-                                        "androidPackage": "com.nhn.android.post",
-                                        "androidQuery": "goHome?version=1"
-                                    },
-                                    "svc.lineapp:2": {
-                                        "title": "라인",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/18_line_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "line",
-                                        "androidPackage": "jp.naver.line.android",
-                                        "androidQuery": "run"
-                                    },
-                                    "svc.moneybookapp:2": {
-                                        "title": "가계부",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/3_household_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "nhnmoneybook",
-                                        "androidPackage": "com.nhn.android.moneybook",
-                                        "androidQuery": "nodata"
-                                    },
-                                    "svc.contact:1": {
-                                        "title": "주소록",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/92_contact.png",
-                                        "badge": "",
-                                        "url": "http://m.contact.naver.com"
-                                    },
-                                    "svc.pholarapp:2": {
-                                        "title": "폴라",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/127_ploar_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "pholar",
-                                        "androidPackage": "com.naver.android.pholar",
-                                        "androidQuery": "goHome?version=1"
-                                    },
-                                    "svc.ladic:1": {
-                                        "title": "라틴어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/19_latin.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/lakodict/#/main"
-                                    },
-                                    "svc.comic:1": {
-                                        "title": "웹툰",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20181106/84_webtoon.png",
-                                        "badge": "",
-                                        "url": "http://m.comic.naver.com"
-                                    },
-                                    "svc.clovaapp:2": {
-                                        "title": "네이버 클로바",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/116_clova_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "clova",
-                                        "androidPackage": "com.naver.nozzle",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.audioclip:1": {
-                                        "title": "오디오클립",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/76_audioclip.png",
-                                        "badge": "",
-                                        "url": "https://audioclip.naver.com"
-                                    },
-                                    "svc.hotels:1": {
-                                        "title": "호텔",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/135_hotels.png",
-                                        "badge": "",
-                                        "url": "https://m-tour.store.naver.com/hotels"
-                                    },
-                                    "svc.vibeapp:2": {
-                                        "title": "VIBE",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/30_vibe_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "vibe",
-                                        "androidPackage": "com.naver.vibe",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.nlabs:1": {
-                                        "title": "네앱연구소",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/10_naverapplab.png.png",
-                                        "badge": "",
-                                        "url": "https://m.naver.com/lab/"
-                                    },
-                                    "svc.hanja:1": {
-                                        "title": "한자사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/131_chinescharacter.png",
-                                        "badge": "",
-                                        "url": "https://hanja.dict.naver.com/"
-                                    },
-                                    "svc.memoapp:2": {
-                                        "title": "메모",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/23_memo_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "comnhnnavermemo",
-                                        "androidPackage": "com.nhn.android.navermemo",
-                                        "androidQuery": "listMemo"
-                                    },
-                                    "svc.dicapp:2": {
-                                        "title": "사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/44_dict_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "naverdic",
-                                        "androidPackage": "com.nhn.android.naverdic",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.mrudic:1": {
-                                        "title": "러시아어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/20_russia.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/rukodict/#/main"
-                                    },
-                                    "svc.vapp:2": {
-                                        "title": "V LIVE",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/39_vlive_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "globalv",
-                                        "androidPackage": "com.naver.vapp",
-                                        "androidQuery": "main"
-                                    },
-                                    "svc.cafe:1": {
-                                        "title": "카페",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/108_cafe.png",
-                                        "badge": "",
-                                        "url": "https://m.cafe.naver.com"
-                                    },
-                                    "svc.spdic:1": {
-                                        "title": "스페인어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/65_spain.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/eskodict/#/main"
-                                    },
-                                    "svc.seriesonapp:2": {
-                                        "title": "시리즈on",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/edit/2018/0920/mobile_151632811181.png",
-                                        "badge": "app",
-                                        "androidScheme": "navertv",
-                                        "androidPackage": "com.nhn.android.navertv",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.sports:1": {
-                                        "title": "스포츠",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/66_sports.png",
-                                        "badge": "",
-                                        "url": "http://m.sports.naver.com/"
-                                    },
-                                    "svc.hudic:1": {
-                                        "title": "헝가리어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/134_hun.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/hukodict/#/main"
-                                    },
-                                    "svc.catalan:1": {
-                                        "title": "데이터랩",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/15_datalab.png",
-                                        "badge": "",
-                                        "url": "https://m.datalab.naver.com/"
-                                    },
-                                    "svc.papagoapp:2": {
-                                        "title": "파파고",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/120_papago_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "labspapago",
-                                        "androidPackage": "com.naver.labs.translator",
-                                        "androidQuery": "site.main"
-                                    },
-                                    "svc.mailapp:2": {
-                                        "title": "메일",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/25_mail_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "navermail",
-                                        "androidPackage": "com.nhn.android.mail",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.bmk:1": {
-                                        "title": "북마크",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/36_bookmark.png",
-                                        "badge": "",
-                                        "url": "http://m.bookmark.naver.com/mobile/index.nhn"
-                                    },
-                                    "svc.post:1": {
-                                        "title": "포스트",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/125_post.png",
-                                        "badge": "",
-                                        "url": "https://m.post.naver.com/"
-                                    },
-                                    "svc.cafeapp:2": {
-                                        "title": "카페",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/109_cafe_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "navercafe",
-                                        "androidPackage": "com.nhn.android.navercafe",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.bandapp:2": {
-                                        "title": "밴드",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/32_band.png",
-                                        "badge": "app",
-                                        "androidScheme": "m2app",
-                                        "androidPackage": "com.nhn.android.band",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.ptdic:1": {
-                                        "title": "포르투갈어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/122_pt.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/ptkodict/#/main"
-                                    },
-                                    "svc.rodic:1": {
-                                        "title": "루마니아어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/21_rumania.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/rokodict/#/main"
-                                    },
-                                    "svc.tvcastwebapp:2": {
-                                        "title": "네이버TV",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/11_ntv.png",
-                                        "badge": "app",
-                                        "androidScheme": "naverplayer",
-                                        "androidPackage": "com.nhn.android.naverplayer",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.beautywindow:1": {
-                                        "title": "뷰티윈도",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/50_shop_beauty.png",
-                                        "badge": "",
-                                        "url": "https://m.swindow.naver.com/beauty/home"
-                                    },
-                                    "svc.map:1": {
-                                        "title": "지도",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/99_maps.png",
-                                        "badge": "",
-                                        "url": "https://m.map.naver.com"
-                                    },
-                                    "svc.vibe:1": {
-                                        "title": "VIBE",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/29_vibe.png",
-                                        "badge": "",
-                                        "url": "https://vibe.naver.com/"
-                                    },
-                                    "svc.nedic:1": {
-                                        "title": "네팔어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/12_nepal.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/nekodict/#/main"
-                                    },
-                                    "svc.thdic:1": {
-                                        "title": "태국어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/117_thai.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/thkodict/#/main"
-                                    },
-                                    "svc.stylewindow:1": {
-                                        "title": "스타일윈도",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/52_shop-style.png",
-                                        "badge": "",
-                                        "url": "https://m.swindow.naver.com/style/home"
-                                    },
-                                    "svc.contactapp:2": {
-                                        "title": "주소록",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/93_contact_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "navercontacts",
-                                        "androidPackage": "com.nhn.android.addressbookbackup",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.hidic:1": {
-                                        "title": "힌디어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/136_hindi.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/hikodict/#/main"
-                                    },
-                                    "svc.calendar:1": {
-                                        "title": "캘린더",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/111_calendar.png",
-                                        "badge": "",
-                                        "url": "https://m.calendar.naver.com/"
-                                    },
-                                    "svc.selective:1": {
-                                        "title": "셀렉티브",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20190218/141_selective.png",
-                                        "badge": "",
-                                        "url": "https://selective.naver.com/discover?shp"
-                                    },
-                                    "svc.myplace:1": {
-                                        "title": "MY플레이스",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/139_myplace.png",
-                                        "badge": "",
-                                        "url": "https://m.store.naver.com/myPlaces?from=nmfav"
-                                    },
-                                    "svc.audioclipapp:2": {
-                                        "title": "오디오클립",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/77_audioclip_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "naveraudio",
-                                        "androidPackage": "com.naver.naveraudio",
-                                        "androidQuery": "home?version=1 "
-                                    },
-                                    "svc.mnmb:1": {
-                                        "title": "스마트 플레이스",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/62_smartplace.png",
-                                        "badge": "",
-                                        "url": "https://m.smartplace.naver.com/"
-                                    },
-                                    "svc.comicapp:2": {
-                                        "title": "웹툰",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20181106/85_webtoon_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "webtoonkr",
-                                        "androidPackage": "com.nhn.android.webtoon",
-                                        "androidQuery": "default?version=1"
-                                    },
-                                    "svc.seriesapp:2": {
-                                        "title": "시리즈",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20190109/140_series.png",
-                                        "badge": "app",
-                                        "androidScheme": "naverbooks",
-                                        "androidPackage": "com.nhn.android.nbooks",
-                                        "androidQuery": "default"
-                                    },
-                                    "svc.nldic:1": {
-                                        "title": "네덜란드어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/9_netherland.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/nlkodict/#/main"
-                                    },
-                                    "svc.bboom:1": {
-                                        "title": "뿜",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/42_bboom.png",
-                                        "badge": "",
-                                        "url": "http://m.bboom.naver.com"
-                                    },
-                                    "svc.mapapp:2": {
-                                        "title": "지도",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/100_maps_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "navermaps",
-                                        "androidPackage": "com.nhn.android.nmap",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.artwindow:1": {
-                                        "title": "아트윈도",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/54_shop_art.png",
-                                        "badge": "",
-                                        "url": "https://m.swindow.naver.com/art/home"
-                                    },
-                                    "svc.mmndic:1": {
-                                        "title": "몽골어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/26_mongol.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/mnkodict/#/main"
-                                    },
-                                    "svc.book:1": {
-                                        "title": "책",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/106_books.png",
-                                        "badge": "",
-                                        "url": "https://book.naver.com"
-                                    },
-                                    "svc.mail:1": {
-                                        "title": "메일",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/24_mail.png",
-                                        "badge": "",
-                                        "url": "https://m.mail.naver.com"
-                                    },
-                                    "svc.blogapp:2": {
-                                        "title": "블로그",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/41_blog_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "naverblog2",
-                                        "androidPackage": "com.nhn.android.blog",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.series:1": {
-                                        "title": "시리즈",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20190109/140_series.png",
-                                        "badge": "",
-                                        "url": "https://m.series.naver.com"
-                                    },
-                                    "svc.itdic:1": {
-                                        "title": "이탈리아어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/86_italian.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/itkodict/#/main"
-                                    },
-                                    "svc.whale:1": {
-                                        "title": "웨일 브라우저",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/81_wahle.png",
-                                        "badge": "",
-                                        "url": "https://m.whale.naver.com"
-                                    },
-                                    "svc.smartboardapp:2": {
-                                        "title": "스마트보드",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/62_smarboard_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "",
-                                        "androidPackage": "com.navercorp.android.smartboard",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.pholar:1": {
-                                        "title": "폴라",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/126_ploar.png",
-                                        "badge": "",
-                                        "url": "https://pholar.co/"
-                                    },
-                                    "svc.fadic:1": {
-                                        "title": "페르시아어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/121_fa.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/fakodict/#/main"
-                                    },
-                                    "svc.terms:1": {
-                                        "title": "지식백과",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/102_encyclopedia.png",
-                                        "badge": "",
-                                        "url": "http://m.terms.naver.com/"
-                                    },
-                                    "svc.talktalk:1": {
-                                        "title": "톡톡",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/118_talk.png",
-                                        "badge": "",
-                                        "url": "https://talk.naver.com?frm=aside"
-                                    },
-                                    "svc.opendict:1": {
-                                        "title": "오픈사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/78_opendict.png",
-                                        "badge": "",
-                                        "url": "https://open.dict.naver.com/"
-                                    },
-                                    "svc.trdic:1": {
-                                        "title": "터키어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/113_turkey.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/trkodict/#/main"
-                                    },
-                                    "svc.music:1": {
-                                        "title": "뮤직",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/27_music.png",
-                                        "badge": "",
-                                        "url": "https://m.music.naver.com"
-                                    },
-                                    "svc.dic:1": {
-                                        "title": "사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/43_dict.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/"
-                                    },
-                                    "svc.dwindow:1": {
-                                        "title": "디자이너윈도",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/46_shop-designer.png",
-                                        "badge": "",
-                                        "url": "https://m.swindow.naver.com/designer/site/11009001"
-                                    },
-                                    "svc.uzdic:1": {
-                                        "title": "우즈베크어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/79_uzu.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/uzkodict/#/main"
-                                    },
-                                    "svc.china:1": {
-                                        "title": "중국어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/95_chidict.png",
-                                        "badge": "",
-                                        "url": "https://zh.dict.naver.com/ "
-                                    },
-                                    "svc.papago:1": {
-                                        "title": "파파고",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/119_papago.png",
-                                        "badge": "",
-                                        "url": "https://papago.naver.com/"
-                                    },
-                                    "svc.globalshopping:1": {
-                                        "title": "해외직구",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/59_shop_global.png",
-                                        "badge": "",
-                                        "url": "https://m.swindow.naver.com/foreign/home"
-                                    },
-                                    "svc.memo:1": {
-                                        "title": "메모",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/22_memo.png",
-                                        "badge": "",
-                                        "url": "http://m.memo.naver.com/mobile/memo.nhn"
-                                    },
-                                    "svc.ardic:1": {
-                                        "title": "아랍어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/67_arab.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/arkodict/#/main"
-                                    },
-                                    "svc.news:1": {
-                                        "title": "뉴스",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/13_news.png",
-                                        "badge": "",
-                                        "url": "http://m.news.naver.com/"
-                                    },
-                                    "svc.stock:1": {
-                                        "title": "증권",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/98_fainace.png",
-                                        "badge": "",
-                                        "url": "http://m.stock.naver.com/"
-                                    },
-                                    "svc.pldic:1": {
-                                        "title": "폴란드어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/128_pol.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/plkodict/#/main"
-                                    },
-                                    "svc.note:1": {
-                                        "title": "쪽지",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/105_message.png",
-                                        "badge": "",
-                                        "url": "https://m.note.naver.com"
-                                    },
-                                    "svc.csdic:1": {
-                                        "title": "체코어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/107_cs.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/cskodict/#/main"
-                                    },
-                                    "svc.tvcastweb:1": {
-                                        "title": "네이버TV",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/11_ntv.png",
-                                        "badge": "",
-                                        "url": "http://m.tv.naver.com"
-                                    },
-                                    "svc.playwindow:1": {
-                                        "title": "플레이윈도",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/58_shop_game.png",
-                                        "badge": "",
-                                        "url": "https://m.swindow.naver.com/play/home"
-                                    },
-                                    "svc.localtour:1": {
-                                        "title": "현지투어",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20190313/143_localtour.png",
-                                        "badge": "new",
-                                        "url": "https://m-tour.store.naver.com/local"
-                                    },
-                                    "svc.eword:1": {
-                                        "title": "영단어장",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/16_en-word.png",
-                                        "badge": "",
-                                        "url": "https://learn.dict.naver.com/m/endic/main.nhn"
-                                    },
-                                    "svc.handmade:1": {
-                                        "title": "리빙윈도",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/47_shop-living.png",
-                                        "badge": "",
-                                        "url": "https://m.swindow.naver.com/living/home"
-                                    },
-                                    "svc.vndic:1": {
-                                        "title": "베트남어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/33_vi.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/vikodict/#/main"
-                                    },
-                                    "svc.academic:1": {
-                                        "title": "학술정보",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/130_academic.png",
-                                        "badge": "",
-                                        "url": "http://m.academic.naver.com"
-                                    },
-                                    "svc.calendarapp:2": {
-                                        "title": "캘린더",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/112_calendar_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "navercal",
-                                        "androidPackage": "com.nhn.android.calendar",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.ndriveapp:2": {
-                                        "title": "클라우드",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/115_cloud_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "comnhnndrive",
-                                        "androidPackage": "com.nhn.android.ndrive",
-                                        "androidQuery": "default?version=2"
-                                    },
-                                    "svc.jpdic:1": {
-                                        "title": "일본어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/88_japdic.png",
-                                        "badge": "",
-                                        "url": "https://ja.dict.naver.com/"
-                                    },
-                                    "svc.frdic:1": {
-                                        "title": "프랑스어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/129_france.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/frkodict/#/main"
-                                    },
-                                    "svc.grafolio:1": {
-                                        "title": "그라폴리오",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/137_grafolio.png",
-                                        "badge": "",
-                                        "url": "https://m.grafolio.com"
-                                    },
-                                    "svc.uadic:1": {
-                                        "title": "우크라이나어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/80_uku.png",
-                                        "badge": "",
-                                        "url": "https://dict.naver.com/ukkodict/#/main"
-                                    },
-                                    "svc.novel:1": {
-                                        "title": "웹소설",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/83_webnovel.png",
-                                        "badge": "",
-                                        "url": "http://m.novel.naver.com/"
-                                    },
-                                    "svc.outlet:1": {
-                                        "title": "아울렛윈도",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/53_shop-oulet.png",
-                                        "badge": "",
-                                        "url": "https://m.swindow.naver.com/outlet/home"
-                                    },
-                                    "svc.endic:1": {
-                                        "title": "영어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/72_endict.png",
-                                        "badge": "",
-                                        "url": "https://endic.naver.com/"
-                                    },
-                                    "svc.localfood:1": {
-                                        "title": "푸드윈도",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/57_shop_food.png",
-                                        "badge": "",
-                                        "url": "https://m.swindow.naver.com/fresh/home"
-                                    },
-                                    "svc.land:1": {
-                                        "title": "부동산",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/34_realestate.png",
-                                        "badge": "",
-                                        "url": "http://m.land.naver.com/"
-                                    },
-                                    "svc.jrnaver:1": {
-                                        "title": "쥬니버",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/96_jiniver.png",
-                                        "badge": "",
-                                        "url": "http://m.jr.naver.com/"
-                                    },
-                                    "svc.petwindow:1": {
-                                        "title": "펫윈도",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/56_shop_pet.png",
-                                        "badge": "",
-                                        "url": "https://m.swindow.naver.com/pet/home"
-                                    },
-                                    "svc.gift:1": {
-                                        "title": "선물",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/51_shop_gifit.png",
-                                        "badge": "",
-                                        "url": "https://m.shopping.naver.com/gift/m/index.nhn"
-                                    },
-                                    "svc.korean:1": {
-                                        "title": "국어사전",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/5_korean.png",
-                                        "badge": "",
-                                        "url": "https://ko.dict.naver.com/"
-                                    },
-                                    "svc.ndrive:1": {
-                                        "title": "클라우드",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/114_cloud.png",
-                                        "badge": "",
-                                        "url": "http://m.cloud.naver.com"
-                                    },
-                                    "svc.wordquiz:1": {
-                                        "title": "단어퀴즈",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/14_quiz.png",
-                                        "badge": "",
-                                        "url": "https://wquiz.dict.naver.com/main.dict"
-                                    },
-                                    "svc.v:1": {
-                                        "title": "V LIVE",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/38_vlive.png",
-                                        "badge": "",
-                                        "url": "http://vlive.tv"
-                                    },
-                                    "svc.smartboard:1": {
-                                        "title": "스마트보드",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/61_smarboard.png",
-                                        "badge": "",
-                                        "url": "http://keyboard.naver.com"
-                                    },
-                                    "svc.kinapp:2": {
-                                        "title": "지식iN",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/104_k-in_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "naverkin",
-                                        "androidPackage": "com.nhn.android.kin",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.happybean:1": {
-                                        "title": "해피빈",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/133_happybean.png",
-                                        "badge": "",
-                                        "url": "http://m.happybean.naver.com"
-                                    },
-                                    "svc.blog:1": {
-                                        "title": "블로그",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/40_blog.png",
-                                        "badge": "",
-                                        "url": "https://m.blog.naver.com"
-                                    },
-                                    "svc.jword:1": {
-                                        "title": "일본어단어장",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/89_japword.png",
-                                        "badge": "",
-                                        "url": "https://learn.dict.naver.com/m/jpdic/main.nhn"
-                                    },
-                                    "svc.landapp:2": {
-                                        "title": "부동산",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/35_reaestate_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "comnhnland",
-                                        "androidPackage": "com.nhn.land.android",
-                                        "androidQuery": ""
-                                    },
-                                    "svc.musicapp:2": {
-                                        "title": "뮤직",
-                                        "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/28_music_app.png",
-                                        "badge": "app",
-                                        "androidScheme": "comnhncorpnavermusic",
-                                        "androidPackage": "com.nhn.android.music",
-                                        "androidQuery": ""
-                                    }
-                                },
-                                "defaultList": ["svc.mail:1", "svc.note:1", "svc.bmk:1", "svc.talktalk:1", "svc.cafe:1", "svc.blog:1", "svc.comic:1", "svc.shopping:1", "svc.kin:1", "svc.stock:1", "svc.land:1", "svc.nlabs:1"],
-                                "os": "ANDROID"
-                            },
-                            "serviceExt": {
-                                "svc.noti:1": {
-                                    "title": "알림",
-                                    "url": "https://m.me.naver.com/noti.nhn",
-                                    "iconUrl": "https://s.pstatic.net/static/www/mobile/up/service/allservice/20180914/68_noti.png"
+                            "message": {
+                                "meta": {
+                                    "service": "",
+                                    "timezone": "+09:00",
+                                    "version": ""
                                 }
                             },
-                            "shortcutNewIcon": {
-                                "menu.EMOTION": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/1_emotion.png",
-                                "menu.HEALTH": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/2_health.png",
-                                "menu.TODAY": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/3_search.png",
-                                "menu.GAMEAPP": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/4_game.png",
-                                "menu.FINANCE": "https://s.pstatic.net/static/www/mobile/up/panel/20180920/5_economy.png",
-                                "menu.SHOW": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/6_exhibition.png",
-                                "menu.SCIENCE": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/7_science.png",
-                                "menu.SHOP_ORDER": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/8_mypay.png",
-                                "menu.NEWS": "https://s.pstatic.net/static/www/mobile/up/panel/20180920/9_news.png",
-                                "menu.SHOP_FEED": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/10_shopping-favoriteshops.png",
-                                "menu.DATA": "https://s.pstatic.net/static/www/mobile/up/panel/20180920/11_keyword.png",
-                                "menu.ANIMAL": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/12_animals.png",
-                                "menu.VIDEO": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/13_videos.png",
-                                "menu.DESIGN": "https://s.pstatic.net/static/www/mobile/up/panel/20180920/14_design.png",
-                                "menu.SHOP_RANK": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/15_rankingtems.png",
-                                "menu.LIVINGHOME": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/16_living.png",
-                                "menu.SHOP_LIVING": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/17_shopping-living.png",
-                                "menu.MYFEED": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/18_subscription.png",
-                                "menu.MUSIC": "https://s.pstatic.net/static/www/mobile/up/panel/20180920/19_music.png",
-                                "menu.LAW": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/20_law.png",
-                                "menu.MOMKIDS": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/21_parents.png",
-                                "menu.BUSINESS": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/22_business.png",
-                                "menu.BOOM": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/23_bboom.png",
-                                "menu.SHOPPING": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/24_shopping.png",
-                                "menu.SCHOOL": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/25_schooljam.png.png",
-                                "menu.SPORTS": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/26_sports.png",
-                                "menu.LANGUAGE": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/27_languages.png",
-                                "menu.TRAVEL": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/28_travel.png",
-                                "menu.WEDDING": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/29_marriage.png",
-                                "menu.ENT": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/30_entertainment.png",
-                                "menu.MOVIE": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/31_movies.png",
-                                "menu.SHOP_VOGUE": "https://s.pstatic.net/static/www/mobile/up/panel/20180920/33_todaytem.png",
-                                "menu.BBOOM": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/34_webtoons.png",
-                                "menu.CARGAME": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/35_autos.png",
-                                "menu.JOB": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/36_joband.png",
-                                "menu.CHINA": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/37_china.png",
-                                "menu.CULTURE": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/38_bookandculture.png",
-                                "menu.ITTECH": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/39_tech.png",
-                                "menu.FARM": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/40_farm.png",
-                                "menu.BEAUTY": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/41_beauty.png",
-                                "menu.LIVING": "https://s.pstatic.net/static/www/mobile/up/panel/20180920/42_food.png",
-                                "menu.WITH": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/43_together-n.png",
-                                "menu.PLACE": "https://s.pstatic.net/static/www/mobile/up/panel/20180914/44_mytwon.png",
-                                "menu.SHOP_TODO": "https://s.pstatic.net/static/www/mobile/up/panel/20190109/45_mohaji.png",
-                                "menu.SHOP_SELECTIVE": "https://s.pstatic.net/static/www/mobile/up/panel/20190304/46_Selective.png"
+                            "params": {
+                                "display": "12",
+                                "st": "service"
+                            },
+                            "result": {
+                                "chart": "http://d3b434.svr.naver.com:8742/?display=12&st=service&",
+                                "item_count": 12,
+                                "service": [{
+                                    "code": "svc.mail:1",
+                                    "retrieve_type": "global",
+                                    "service": "mail",
+                                    "serviceKey": ""
+                                }, {
+                                    "code": "svc.comic:1",
+                                    "retrieve_type": "global",
+                                    "service": "webtoon",
+                                    "serviceKey": "main"
+                                }, {
+                                    "code": "svc.news:1",
+                                    "retrieve_type": "global",
+                                    "service": "news",
+                                    "serviceKey": ""
+                                }, {
+                                    "code": "svc.kin:1",
+                                    "retrieve_type": "global",
+                                    "service": "kin",
+                                    "serviceKey": ""
+                                }, {
+                                    "code": "svc.map:1",
+                                    "retrieve_type": "global",
+                                    "service": "map",
+                                    "serviceKey": ""
+                                }, {
+                                    "code": "svc.talktalk:1",
+                                    "retrieve_type": "global",
+                                    "service": "talk",
+                                    "serviceKey": ""
+                                }, {
+                                    "code": "svc.enter:1",
+                                    "retrieve_type": "global",
+                                    "service": "entertain",
+                                    "serviceKey": ""
+                                }, {
+                                    "code": "svc.note:1",
+                                    "retrieve_type": "global",
+                                    "service": "note",
+                                    "serviceKey": ""
+                                }, {
+                                    "code": "svc.tvcastweb:1",
+                                    "retrieve_type": "global",
+                                    "service": "tvcast",
+                                    "serviceKey": ""
+                                }, {
+                                    "code": "svc.sports:1",
+                                    "retrieve_type": "global",
+                                    "service": "sports",
+                                    "serviceKey": ""
+                                }, {
+                                    "code": "svc.shopping:1",
+                                    "retrieve_type": "global",
+                                    "service": "shopping",
+                                    "serviceKey": "main"
+                                }, {
+                                    "code": "svc.myplace:1",
+                                    "retrieve_type": "global",
+                                    "service": "place",
+                                    "serviceKey": ""
+                                }]
+                            },
+                            "status": {
+                                "code": "200",
+                                "message": "OK"
                             }
                         }
                     </script>
-                    <div id="MM_SHORTCUT_LAB_META" style="display:none;">
-                        <div id="_MM_ASIDE_LAB_REVISION" data-lab-revision="26"></div>
-                    </div>
 
+                    <div class="grid1_group type_gradient" id="SEARCH_HOME_WRAP">
+
+
+                        <div id="HOME_AD" class="grid1 id_nmap" data-da="wrap_main_news_specialda_1" data-ad-type="normal" style="overflow:hidden; background-color: #fff;">
+                            <div class="nmap_wrapper">
+                                <div id="main_search_specialda_1" data-main-da="_MM_MAIN_DA" data-veta-preview="main_search_specialda_1">
+                                    <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/tveta/libs/assets/css/mo/main/min/mobile_newmain_special_da.min.css?20181005">
+                                    <div data-container-id="main_specialda_main_container">
+                                        <a href="https://mv.veta.naver.com/fxclick?eu=EU10041472&calp=-&oj=ya%2FU8Q7khEwgq7wRRSXKc9EaEgvcKwVXqG%2BnflYZW81WoUnIW%2BvamW8eGBwiPtDjbaJ2jsmcgDHDOcc1MypmAtzXTPWNPWFaChI1LlXDI9JbCvsxJJrhgA&ac=7848625&src=3851641&br=2902197&evtcd=P901&x_ti=1196&tb=SEARCH_1&oid=&sid1=&sid2=&rk=3aa43b77f3253253be1cb37d4bbf9848&eltts=XIFj9V%2Bg1NSpSDm0r6BK3w%3D%3D&lu=&brs=Y&"
+                                            style="display:block;text-align: center;text-decoration:none; margin-top: 50px;">
+                                            <span style="display: inline-block;max-width: 375px;vertical-align: top;">
+                <img src="none_image.png" alt="실손보험만으로 부족하다 느낀다면? 메리츠 실속건강보험" style="display: block;width: 100%;border:none;">
+            </span>
+                                        </a>
+                                    </div>
+                                    <script id="ad_marketing_script" type="text/template">
+                                        (function () { var naver_corp_da = window.naver_corp_da || {}; var da_dom_id = 'main_search_specialda_1'.trim(); var uId = (da_dom_id.length > 0) ? da_dom_id : (typeof nbp_ad !== 'undefined') ? nbp_ad.mobilenetwork.ad_div_id : 'adw_da'; var tarEl = NBP_CORP.$(uId);
+                                        var util = naver_corp_da.Util ? new naver_corp_da.Util() : new NBP_CORP.Nimp(); var subTarEl = document.getElementById('main_search_specialda_2'); var lastWidth = window.innerWidth; var adHeight; if(subTarEl){ subTarEl.innerHTML
+                                        = ""; } if (!tarEl) { return; } var scroll_target = (typeof da_scroll_target !== 'undefined') ? da_scroll_target.targetEl : window; var orientation_change_time = 500; /* ActiveView */ var ac_end_date = "20190517175959";
+                                        var ad_end_date = "20190517175959"; var adblockDetector = new naver_corp_da.AdBlockDetector(); adblockDetector.init(); var callback = function () { var eid = ''; var adblockFound = adblockDetector.validateNode(tarEl);
+                                        if (adblockFound === true) { return; } try { eid = (tarEl) ? ((parseInt(tarEl.getBoundingClientRect().height || tarEl.offsetHeight, 10) === 0) ? 'V000' : 'V900') : 'V000'; } catch (e) { eid = 'V000'; naver_corp_da.scouters[uId].collectError(e);
+                                        } var x_ev = ''; try { var target = tarEl; x_ev = (target) ? ((parseInt(target.getBoundingClientRect().height || target.offsetHeight, 10) === 0) ? '000' : '111') : '000'; } catch (e) { x_ev = '000'; } finally {
+                                        if (eid === 'V900' && naver_corp_da.activeViews[uId] !== undefined) { naver_corp_da.activeViews[uId].removeEventListener(); } var url = "https://mv.veta.naver.com/fxview?eu=EU10041472&calp=-&oj=ya%2FU8Q7khEwgq7wRRSXKc9EaEgvcKwVXqG%2BnflYZW81WoUnIW%2BvamW8eGBwiPtDjbaJ2jsmcgDHDOcc1MypmAtzXTPWNPWFaChI1LlXDI9JbCvsxJJrhgA&ac=7848625&src=3851641&evtcd=V900&x_ti=1196&tb=SEARCH_1&oid=&sid1=&sid2=&rk=3aa43b77f3253253be1cb37d4bbf9848&eltts=XIFj9V%2Bg1NSpSDm0r6BK3w%3D%3D&brs=Y&&eid="
+                                        + eid + "&tb=SEARCH_1&x_ev="; url += x_ev; util.log(url); } }; var callbackForInValid = function () { var target = tarEl; naver_corp_da.activeViews[uId].removeEventListener(); if (target) { target.innerHTML = '';
+                                        target.style.removeProperty('height'); } }; naver_corp_da.activeViews[uId] = naver_corp_da.activeViews[uId] || null; if (naver_corp_da.activeViews[uId]) { naver_corp_da.activeViews[uId].clearActiveView(); naver_corp_da.activeViews[uId]
+                                        = null; } var options = { activeViewPercentage: 0.5, activeViewTime: 1000, adDiv: tarEl, acEndDate: ac_end_date, adEndDate: ad_end_date, scrollTarget: scroll_target, orientationChangeTime: orientation_change_time,
+                                        callback: callback, callbackForInValid: callbackForInValid }; naver_corp_da.activeViews[uId] = (typeof naver_corp_da.ActiveViewSub !== "undefined") ? new naver_corp_da.ActiveViewSub(options) : new naver_corp_da.ActiveView(options);
+                                        naver_corp_da.activeViews[uId].checkActiveView(); // 모듈 생성 및 클릭 이벤트 활성화 if (typeof naver_corp_da.getClickedCoordinateSub !== "undefined" && tarEl.querySelector('a') !== null) { var clickOption = { adArea: tarEl,
+                                        // 광고 영역(div) logUrl: tarEl.querySelector('a') ? tarEl.querySelector('a').href : null // 기존 클릭 로그 URL }; new naver_corp_da.getClickedCoordinateSub(clickOption).activate(); } naver_corp_da.logParamManager[uId] =
+                                        new naver_corp_da.logParamManager(); })();
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid1 id_cui_weather _MM_WEATHER_BANNER">
+                            <div class="cui_weather" id="WTH_WRAP" data-ts="Fri May 17 16:01:31 KST 2019">
+                                <div class="cw_ctop">
+                                    <a href="https://m.search.naver.com/search.naver?query=%EC%84%B1%EB%82%A8%EC%8B%9C %EC%A4%91%EC%9B%90%EA%B5%AC %EC%84%B1%EB%82%A8%EB%8F%99 %EB%82%A0%EC%94%A8&where=m&sm=mtp_hty" class="cw_info_a" data-clk="weather" data-type="NOW">
+                                        <div class="cw_info">
+                                            <div class="cw_icon">
+                                                <div class="wt5">
+                                                    <div class="cloud_back"></div>
+                                                    <div class="sun"></div>
+                                                    <div class="cloud_front"></div>
+                                                </div>
+                                            </div>
+                                            <ul class="cw_info_l">
+                                                <li class="cw_info_item">
+                                                    <span class="cw_deg_num">27°</span><span class="cw_t">구름많음</span>
+                                                </li>
+                                                <li class="cw_info_item">
+                                                    <div class="cw_tw"><span class="cw_c">
+어제보다 2° 낮아요</span></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                    <a href="https://m.search.naver.com/search.naver?query=%EC%84%B1%EB%82%A8%EC%8B%9C %EC%A4%91%EC%9B%90%EA%B5%AC %EC%84%B1%EB%82%A8%EB%8F%99 %EB%AF%B8%EC%84%B8%EB%A8%BC%EC%A7%80&where=m&sm=mtp_hty" class="cw_state_a" data-type="NOW" data-clk="weatherdust">
+                                        <ul class="cw_state_l">
+                                            <li class="cw_state_item">
+                                                <div class="cw_state_tit">미세<span class="cw_dust">먼지</span></div>
+                                                <div class="cw_state WTH_AIR_LEVEL">57</div>
+                                                <div class="cw_state WTH_AIR_TEXT" style="display:none;">보통</div>
+                                            </li>
+                                            <li class="cw_state_item">
+                                                <div class="cw_state_tit">초미세<span class="cw_dust">먼지</span></div>
+                                                <div class="cw_state WTH_AIR_LEVEL">33</div>
+                                                <div class="cw_state WTH_AIR_TEXT" style="display:none;">보통</div>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </div>
+                                <!-- start of breaking news -->
+                                <div class="cw_report_wrap" id="WTH_WARN">
+                                    <ul class="cwr_l _ROLLING">
+                                        <li class="cwr_item">
+                                            <a href="https://m.search.naver.com/search.naver?query=%EA%B8%B0%EC%83%81%EC%86%8D%EB%B3%B4&where=m&sm=mtp_hty" class="cwr_link" data-clk="weatheralert">
+                                                <span class="cwr_box">
+<span class="cwr_tag">특보</span><span class="cwr_sub">기상청 11:00</span>
+                                                <span class="cwr_main">성남 건조주의보 발효</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="cwr_item">
+                                            <a href="https://m.search.naver.com/search.naver?query=%EA%B2%BD%EA%B8%B0%EB%8F%84 %EC%84%B1%EB%82%A8%EC%8B%9C%EC%A4%91%EC%9B%90%EA%B5%AC %EC%84%B1%EB%82%A8%EB%8F%99 %EC%98%A4%EC%A1%B4" class="cwr_link" data-clk="weatherozon">
+                                                <span class="cwr_box">
+<span class="cwr_sub">한국환경공단</span>
+                                                <span class="cwr_main">오존 0.097<em class="cwr_state cwr_bad">나쁨</em></span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="cwr_item">
+                                            <a href="https://m.weather.naver.com/m/main.nhn?regionCode=02133101" class="cwr_link" data-clk="weatheruvind">
+                                                <span class="cwr_box">
+<span class="cwr_sub">기상청 06:00</span>
+                                                <span class="cwr_main">자외선지수 6<em class="cwr_state cwr_high">높음</em></span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- end of breaking news -->
+                                <div class="cw_cont" id="WTH_FORECAST">
+                                    <div class="cw_mid">
+                                        <a href="https://m.search.naver.com/search.naver?where=m&sm=mtp_clk.weather&acr=1&query=%EA%B2%BD%EA%B8%B0%EB%8F%84+%EC%84%B1%EB%82%A8%EC%8B%9C+%EC%A4%91%EC%9B%90%EA%B5%AC+%EC%84%B1%EB%82%A8%EB%8F%99+%EB%82%A0%EC%94%A8" data-clk="weatherhrfor" class="cw_mid_a type_cw_timegraph"
+                                            data-weathertime="20190517155510">
+                                            <div class="cw_timegraph_wrap">
+                                                <div class="cw_timegraph MM_TEMPERATURE">
+                                                    <div class="cwt_canvas_wrap">
+                                                        <div class="cwt_canvas">
+                                                            <canvas class="MM_TEMPERATURE_GRAPH" style="min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;"></canvas>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="cwt_list">
+                                                        <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="27" data-hour="15">
+                                                            <div class="cwt_time"><span class="cwt_num cwt_current MM_HOUR_LABEL">15시</span></div>
+                                                            <div class="cwt_ico "><span class="imw imw05">구름많음</span></div>
+                                                            <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">27˚</div>
+                                                        </li>
+                                                        <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="28" data-hour="16">
+                                                            <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">16</span></div>
+                                                            <div class="cwt_ico "><span class="imw imw05">구름많음</span></div>
+                                                            <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">28˚</div>
+                                                        </li>
+                                                        <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="28" data-hour="17">
+                                                            <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">17</span></div>
+                                                            <div class="cwt_ico "><span class="imw imw05">구름많음</span></div>
+                                                            <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">28˚</div>
+                                                        </li>
+                                                        <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="28" data-hour="18">
+                                                            <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">18</span></div>
+                                                            <div class="cwt_ico "><span class="imw imw05">구름많음</span></div>
+                                                            <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">28˚</div>
+                                                        </li>
+                                                        <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="23" data-hour="21">
+                                                            <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">21</span></div>
+                                                            <div class="cwt_ico "><span class="imw imw06">구름많음</span></div>
+                                                            <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">23˚</div>
+                                                        </li>
+                                                        <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="21" data-hour="00">
+                                                            <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">00</span></div>
+                                                            <div class="cwt_ico "><span class="imw imw06">구름많음</span></div>
+                                                            <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">21˚</div>
+                                                            <div class="cwt_date"><span class="cd_t">내일</span></div>
+                                                        </li>
+                                                        <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="20" data-hour="03">
+                                                            <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">03</span></div>
+                                                            <div class="cwt_ico cwt_gray"><span class="imw imw06">구름많음</span></div>
+                                                            <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">20˚</div>
+                                                        </li>
+                                                        <li class="cwt_item MM_TEMPERATURE_ITEM" data-temperature="20" data-hour="06">
+                                                            <div class="cwt_time"><span class="cwt_num  MM_HOUR_LABEL">06</span></div>
+                                                            <div class="cwt_ico cwt_gray"><span class="imw imw07">흐림</span></div>
+                                                            <div class="cwt_temp MM_TEMPERATURE_LABEL" style="top: 18px;">20˚</div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="cw_bottom">
+                                        <button class="cwb_btn_location _MM_WEATHER_LOC" data-v="5" data-clk="weatherhere"><span class="blind">현재위치</span>성남시 성남동</button>
+                                        <div class="cwb_tw">
+                                            <button class="cwb_notice _MM_WEATHER_ALARM" type="button" aria-pressed="false" style="display:none;">날씨알림</button>
+                                            <div class="cwb_t _MM_WEATHER_DATA_SOURCE" style="display:none;">기상청, 한국환경공단</div>
+                                            <a href="https://m.weather.naver.com/m/news.nhn" class="cwb_btn_more" data-clk="weanewsmore">더보기</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--EMPTY-->
+
+                        <!-- EMPTY -->
+
+
+                        <div class="grid1 id_cui_napp_bannernew">
+                            <div class="cui_napp_bannernew">
+                                <div class="cnb_banner">
+                                    <h3 class="cnb_title">앱으로 <em class="cnb_em">새로운 네이버</em>를 더 쾌적하게 사용해 보세요.</h3>
+                                    <a href="#" class="cnb_btn" role="button" data-clk="newmainyes" data-action="ok" aria-current="true" data-ios-scheme="naversearchapp" data-ios-query="mainchange?type=new&version=31" data-ios-install="393499958" data-ios-universal-fullurl="" data-android-scheme="naversearchapp"
+                                        data-android-query="mainchange?type=new&version=31" data-android-package="com.nhn.android.search" onclick="nhn.mobile.launchApp(this);return false;">앱 사용하기</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="MM_LOGINBOX" class="grid1 id_cui_npay_board">
+                            <div class="cui_npay_board">
+                                <div class="cnb_wrap">
+
+                                    <a href="https://nid.naver.com/nidlogin.login?svctype=262144" class="cnb_login" data-clk="logincard">
+                                        <span class="cnb_profile"></span>
+                                        <div class="cnb_guide"><strong>로그인</strong>하고 다양한 소식을 확인하세요</div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 id_cui_webtoon_box">
+
+                        </div>
+                        <!--EMPTY-->
+                        <div id="MM_HOME_SEARCH_RECOMMEND_PANEL" class="grid1 id_cui_recommend_board">
+                            <div class="cui_recommend_board">
+                                <div class="crb_title_wrap">
+                                    <h3 class="crb_title">
+
+                                        Made by 태인
+
+                                        <a class="crb_right_a" href="/settings/menu/" data-clk="panopen">
+						하하하하
+					</a>
+                                    </h3>
+                                </div>
+                                <div class="crb_shortcut_wrap">
+                                    <ul class="crb_list">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="MM_HOME_NOTICE" class="grid1 id_cui_notice">
+                            <div class="cui_notice">
+                                <h3 class="blind">알립니다</h3>
+                                <ul class="cn_list MM_JS_RANDOM">
+                                    <li class="cn_item" data-js-random="true"><a href="#" class="cn_a" data-clk=""><span class="cn_ico_update"></span>&nbsp;</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="grid1 id_nmap" data-da="wrap_main_news_specialda_2" id="HOME_AD2" style="display:none;">
+                            <div class="nmap_wrapper">
+                                <div id="main_search_specialda_2" data-veta-preview="main_search_specialda_2"></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="search_footer" role="contentinfo">
+                    <div class="footer">
+                        <footer role="contentinfo">
+                            <div class="footer_info">
+
+                                <a href="#" class="info MM_LOGINOUT" onclick="nclk(this,'fot.login','','');">로그인</a>
+
+                                <a href="/services.html" class="info" onclick="nclk(this,'fot.sitemap','','');">전체서비스</a>
+                                <a href="http://www.naver.com/?mobile" class="info" onclick="nclk(this,'fot.gopc','','');">PC버전</a>
+                            </div>
+                            <div class="footer_info">
+                                <a href="http://nid.naver.com/mobile/user/help/termAgree.nhn?m=viewTermAgree1" class="info" onclick="nclk(this,'fot.agreement','','');">이용약관</a>
+                                <a href="http://nid.naver.com/mobile/user/help/termAgree.nhn?m=viewTermAgree3" class="info policy" onclick="nclk(this,'fot.privacy','','');">개인정보처리방침</a>
+                                <a href="https://m.help.naver.com/support/index.nhn" class="info" onclick="nclk(this,'fot.help','','');">고객센터</a>
+                            </div>
+                            <a href="https://www.navercorp.com" class="logo_naver" onclick="nclk(this,'fot.navercorp','','');">TAEIN</a>
+                        </footer>
+                    </div>
+                </div>
+
+                <div id="MM_SHORTCUT_LAB_META" style="display:none;">
+                    <div id="_MM_ASIDE_LAB_REVISION" data-lab-revision="26"></div>
                 </div>
 
             </div>
-            <div class="flick-panel"></div>
+
         </div>
-        <button id="MM_GREENDOT" type="button" class="sch_recognition greendot_out" data-clk="greend"><span class="ico_sch_recognition">인식검색</span></button>
-        <div id="MM_NEWS_FLOATING_BANNER" class="grid_cui_prepend id_cui_channel_journal" style="display:none;">
-            <div class="cui_channel_journal ccj_set_fixed">
-                <div class="ccj_set_title">
-                    <h3 id="MM_FLOATING_NOTHING" class="ccj_set_previous">언론사를 3개 이상 선택해주세요</h3>
-                    <h3 id="MM_FLOATING_SELECTED" class="ccj_set_previous" style="display:none;"><span class="ccj_count_wrap"><em id="MM_NEWS_CHANNEL_CATEGORY_BANNER_SELECT_COUNT" class="ccj_count">0</em></span> 개 언론사 구독</h3>
-                    <div class="ccj_set_check">
-                        <a href="#" class="ccj_btn_check MM_NEWS_CHANNEL_CATEGORY_BANNER_SAVE dimmed" data-from="main_category" data-clk="editsave">저장하기</a>
-                    </div>
+        <div class="flick-panel"></div>
+    </div>
+    <button id="MM_GREENDOT" type="button" class="sch_recognition greendot_out" data-clk="greend"><span class="ico_sch_recognition">인식검색</span></button>
+    <div id="MM_NEWS_FLOATING_BANNER" class="grid_cui_prepend id_cui_channel_journal" style="display:none;">
+        <div class="cui_channel_journal ccj_set_fixed">
+            <div class="ccj_set_title">
+                <h3 id="MM_FLOATING_NOTHING" class="ccj_set_previous">언론사를 3개 이상 선택해주세요</h3>
+                <h3 id="MM_FLOATING_SELECTED" class="ccj_set_previous" style="display:none;"><span class="ccj_count_wrap"><em id="MM_NEWS_CHANNEL_CATEGORY_BANNER_SELECT_COUNT" class="ccj_count">0</em></span> 개 언론사 구독</h3>
+                <div class="ccj_set_check">
+                    <a href="#" class="ccj_btn_check MM_NEWS_CHANNEL_CATEGORY_BANNER_SAVE dimmed" data-from="main_category" data-clk="editsave">저장하기</a>
                 </div>
             </div>
         </div>
-        <div id="MM_DUAL_SETTING" class="float_realtime" style="display:none;">
-            <a href="/aside/" class="fr_banner">
-                <strong class="fr_title"><em class="fr_st fr_ham">삼선메뉴</em>에서 원하는 버전을 선택할 수 있어요</strong>
-            </a>
-        </div>
+    </div>
+    <div id="MM_DUAL_SETTING" class="float_realtime" style="display:none;">
+        <a href="/aside/" class="fr_banner">
+            <strong class="fr_title"><em class="fr_st fr_ham">삼선메뉴</em>에서 원하는 버전을 선택할 수 있어요</strong>
+        </a>
+    </div>
 
-        <div id="MM_SWIPE_COACH" class="float_coachmark fc_fade_out">
-            <a href="#" class="fc_banner" data-clk="swipe">
-                <strong class="fc_title" style="overflow:hidden;">
+    <div id="MM_SWIPE_COACH" class="float_coachmark fc_fade_out">
+        <a href="#" class="fc_banner" data-clk="swipe">
+            <strong class="fc_title" style="overflow:hidden;">
 <span class="arrow_box_l"><span class="ico_arrow1"></span><span class="ico_arrow2"></span><span class="ico_arrow3"></span></span>
 <ul class="fc_list MM_list">
 <li class="fc_item"><em class="fc_t">원준이 영어</em>84점</li>
@@ -1620,15 +683,15 @@ class="sv_a MM_SHORTCUT_ITEM_LINK" data-clk="short{{ nclickCode }}">
 </ul>
 <span class="arrow_box_r"><span class="ico_arrow3"></span><span class="ico_arrow2"></span><span class="ico_arrow1"></span></span>
 </strong>
-            </a>
-        </div>
+        </a>
+    </div>
 
 
-        <div id="MM_LOADING" class="grid_loading" style="display: none;"><span class="ic_loading">로딩중...</span></div>
-        <div id="MM_LOADING2" class="ly_loding" style="display: none;">
-            <span class="loading_bar" style="background-image:url('https://s.pstatic.net/static/www/m/2015/img_loading_v151223.gif');">로딩중...</span>
-        </div>
-        <div id="MM_MORE" class="grid_more" style="display:none;"><a href="#" class="gm_a">더보기<span class="sprh sprh_gmarr"></span></a></div>
+    <div id="MM_LOADING" class="grid_loading" style="display: none;"><span class="ic_loading">로딩중...</span></div>
+    <div id="MM_LOADING2" class="ly_loding" style="display: none;">
+        <span class="loading_bar" style="background-image:url('https://s.pstatic.net/static/www/m/2015/img_loading_v151223.gif');">로딩중...</span>
+    </div>
+    <div id="MM_MORE" class="grid_more" style="display:none;"><a href="#" class="gm_a">더보기<span class="sprh sprh_gmarr"></span></a></div>
     </div>
     <script type="text/template" id="TPL_PANEL_LOAD_ERROR">
         <div class="wrap">
@@ -1852,25 +915,25 @@ class="sv_a MM_SHORTCUT_ITEM_LINK" data-clk="short{{ nclickCode }}">
                 "s": "2019.05.17. (금) 04:05:00 PM",
                 "o": "2019-05-17T16:05:00",
                 "d": [{
-                    "k": "조은정",
+                    "k": "이원욱",
                     "c": "sm",
                     "a": "동일",
                     "n": "0",
                     "q": "%EC%A1%B0%EC%9D%80%EC%A0%95"
                 }, {
-                    "k": "소지섭",
+                    "k": "이원욱 연설",
                     "c": "sm",
                     "a": "동일",
                     "n": "0",
                     "q": "%EC%86%8C%EC%A7%80%EC%84%AD"
                 }, {
-                    "k": "인터파크 인생날",
+                    "k": "행복전도사",
                     "c": "sm",
                     "a": "동일",
                     "n": "0",
                     "q": "%EC%9D%B8%ED%84%B0%ED%8C%8C%ED%81%AC+%EC%9D%B8%EC%83%9D%EB%82%A0"
                 }, {
-                    "k": "제주항공 갓성비 운임 fly",
+                    "k": "이원욱 수행평가",
                     "c": "sm",
                     "a": "동일",
                     "n": "0",
