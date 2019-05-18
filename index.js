@@ -1,0 +1,1 @@
+naver_corp_da.logParamManager['nmap_news_1'].imgOnloadHandler();
